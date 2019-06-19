@@ -27,4 +27,6 @@ https://github.com/seuretm/ocrd_typegroups_classifier
 Usage:
 `python grad-cam.py --image-path <path_to_image>`
 
-Note that an "output" folder is needed.
+Note that:
+- an "output" folder is needed.
+- it should work with PyTorch 1.0
