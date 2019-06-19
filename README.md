@@ -26,6 +26,5 @@ https://github.com/seuretm/ocrd_typegroups_classifier
 
 Usage:
 `python grad-cam.py --image-path <path_to_image>`
-`python grad-cam.py --use-cuda --image-path <path_to_image>`
 
 Note that an "output" folder is needed.

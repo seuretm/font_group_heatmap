@@ -211,10 +211,6 @@ def get_args():
 	parser.add_argument('--layer', type=int, default=11, help='Layer number (0-11)')
 	args = parser.parse_args()
 	args.use_cuda = args.use_cuda and torch.cuda.is_available()
-	if args.use_cuda:
-		print("Using GPU for acceleration")
-	else:
-		print("Using CPU for computation")
 
 	return args
 
